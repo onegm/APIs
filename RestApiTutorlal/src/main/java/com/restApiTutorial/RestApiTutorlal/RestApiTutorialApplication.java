@@ -52,7 +52,6 @@ public class RestApiTutorialApplication {
 		}
 
 		System.out.println(transcript.getText());
-
 	}
 
 }

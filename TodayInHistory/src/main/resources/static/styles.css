@@ -1,0 +1,16 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #07DE6D;
+  color: black;
+  font-family: Tahoma;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p{
+    display: inline-block;
+    padding-right: 10px;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TIH</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Today In History</h1>
+    <a th:href="${event.url}"><h2 th:text="${event.title}"></h2></a>
+    <p><strong>Date:</strong></p><p th:text="${event.date}">Event Date</p>
+    <p th:text="${event.synopsis}">Event</p>
+</body>
+</html>
